@@ -1,0 +1,36 @@
+{
+  "registry": "https://your-server.com/tools",
+  "pypiIndex": "https://pypi.yourcompany.com/simple",
+  "tools": [
+    {
+      "name": "ffmpeg",
+      "type": "binary",
+      "version": "7.1",
+      "executable": "ffmpeg",
+      "platforms": {
+        "win-x64":   { "file": "ffmpeg-7.1-win-x64.zip" },
+        "osx-arm64": { "file": "ffmpeg-7.1-osx-arm64.tar.gz" },
+        "osx-x64":   { "file": "ffmpeg-7.1-osx-x64.tar.gz" },
+        "linux-x64": { "file": "ffmpeg-7.1-linux-x64.tar.gz" }
+      }
+    },
+    {
+      "name": "imagemagick",
+      "type": "binary",
+      "version": "7.1.1",
+      "executable": "magick",
+      "platforms": {
+        "win-x64":   { "file": "imagemagick-7.1.1-win-x64.zip" },
+        "osx-arm64": { "file": "imagemagick-7.1.1-osx-arm64.tar.gz" }
+      }
+    },
+    {
+      "name": "asset-packer",
+      "type": "pypi",
+      "version": "1.4.0",
+      "package": "asset-packer",
+      "entryPoint": "asset-packer",
+      "python": "3.12"
+    }
+  ]
+}

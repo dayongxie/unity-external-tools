@@ -1,0 +1,29 @@
+{
+  "name": "dev.external-tools",
+  "version": "0.1.0",
+  "displayName": "External Tools Manager",
+  "description": "Manifest-driven external tool manager for Unity. Downloads platform-specific binary tools and Python (PyPI) tools on editor startup, keeping binaries out of version control.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "keywords": [
+    "tools",
+    "external",
+    "binary",
+    "pypi",
+    "uv",
+    "package-manager"
+  ],
+  "author": {
+    "name": "Your Company"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "samples": [
+    {
+      "displayName": "Example Manifest",
+      "description": "An example tools-manifest.json to copy into your project.",
+      "path": "Samples~"
+    }
+  ]
+}
